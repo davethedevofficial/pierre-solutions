@@ -19,7 +19,8 @@ body {
 
 
 h1{
-    letter-spacing:50px;
+    font-weight: 100;
+    letter-spacing: 60px;
     font-family: 'Playfair Display', serif;
     font-size: 150px;
     display: flex;
