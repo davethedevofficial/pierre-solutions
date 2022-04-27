@@ -32,7 +32,7 @@ h1{
 
     letter-spacing:50px;
 
-    font-family: 'Playfair', sans-serif;
+    font-family: 'Playfair Display', serif;
 
     font-size: 150px;
 
@@ -79,6 +79,7 @@ h1{
     position: fixed;
 
     bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
