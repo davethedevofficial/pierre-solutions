@@ -16,6 +16,11 @@ body {
     width: 100%;
 }
 
+.header h3{
+    font-size: 48px;
+    text-align: center;
+}
+
 
 
 h1{
@@ -35,7 +40,7 @@ h1{
     width: 100%;
 }
 
-.subheader p{
+.subheader {
     font-size: 65px;
     margin:0;
     padding:0;
@@ -44,21 +49,59 @@ h1{
 }
 
 
+.content {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
 
-.mailto{
+}
+
+.content ul {
+    list-style: none;
+    color: #746f6f;
+    line-height: 1.5;
+}
+
+.mailto, .policy{
     width: 100%;
     text-align: center;
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     font-family: 'Roboto', sans-serif;
+    background: #000;
 }
 
+.policy {
+    bottom: 0px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 0;
+}
 
-
-.mailto a{
+.mailto a, .policy a{
     font-variant-caps: all-small-caps;
     color: rgb(177, 177, 177);
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 3px;
+}
+
+.policy a {
+    padding: 0 30px;
+}
+
+.policy a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.active {
+    color: rgb(255, 255, 255)!important;
+    text-decoration: underline!important;
+    font-weight: bold!important;
 }
